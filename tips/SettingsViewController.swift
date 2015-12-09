@@ -23,7 +23,6 @@ class SettingsViewController: UIViewController {
     }
     
     @IBAction func onEditingChange(sender: UISegmentedControl) {
-        
         let defaults = NSUserDefaults.standardUserDefaults()
         defaults.setInteger(sender.selectedSegmentIndex, forKey: "defaultTip")
         defaults.synchronize()

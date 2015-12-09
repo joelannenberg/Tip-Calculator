@@ -28,9 +28,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    let tipPercentages = [0.18, 0.2, 0.22]
+    
     @IBAction func onEditingChanged(sender: AnyObject) {
-        
-        var tipPercentages = [0.18, 0.2, 0.22]
         let tipPercentage = tipPercentages[tipControl.selectedSegmentIndex]
         let billAmount = NSString(string: billField.text!).doubleValue
         let tip = billAmount * tipPercentage
@@ -39,20 +39,16 @@ class ViewController: UIViewController {
         tipLabel.text = String(format: "$%.2f", tip)
         totalLabel.text = String(format: "$%.2f", total)
     }
-
-    @IBAction func onTap(sender: AnyObject) {
-        view.endEditing(true)
-    }
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
+        billField.becomeFirstResponder()
         let defaults = NSUserDefaults.standardUserDefaults()
         let defaultTip = defaults.integerForKey("defaultTip")
         print("default tip: \(defaultTip)") // Check if default tip updated
         switch defaultTip {
         case 0...2:
             tipControl.selectedSegmentIndex = defaultTip
-            var tipPercentages = [0.18, 0.2, 0.22]
             let tipPercentage = tipPercentages[tipControl.selectedSegmentIndex]
             let billAmount = NSString(string: billField.text!).doubleValue
             let tip = billAmount * tipPercentage
