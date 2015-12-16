@@ -35,7 +35,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 Difficulties:
 
-Getting the default tip percentage to actually affect and update the CALCULATED tip and bill. Changing the default tip would just change the selector on tipControl, but would not update the calculations described.
+Getting the default tip percentage in the Settings View to update the CALCULATED tip and bill. Changing the default tip would just change the selector on the Settings View, but would not update the calculations on ViewController.
 
 ## License
 
