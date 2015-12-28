@@ -38,7 +38,7 @@ Difficulties:
 
 Getting the default tip percentage in the Settings View to update the CALCULATED tip and bill. Changing the default tip would just change the selector on the Settings View, but would not update the calculations on ViewController.
 
-Creating, saving, and accessing the colors for the color themes, and the color schemes themselves.
+Creating, saving, and accessing the colors for the color themes, and the color themes themselves.
 
 ## License
 
