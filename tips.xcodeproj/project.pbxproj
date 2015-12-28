@@ -43,7 +43,7 @@
 		5DA152F51C0FC88E00A272AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DA152F81C0FC88E00A272AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DA152FA1C0FC88E00A272AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5DA152FF1C0FC88E00A272AD /* tipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DA152FF1C0FC88E00A272AD /* Tip Calculator.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tip Calculator.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DA153031C0FC88E00A272AD /* tipsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsTests.swift; sourceTree = "<group>"; };
 		5DA153051C0FC88E00A272AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DA1530A1C0FC88E00A272AD /* tipsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,7 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				5DA152EB1C0FC88E00A272AD /* tips.app */,
-				5DA152FF1C0FC88E00A272AD /* tipsTests.xctest */,
+				5DA152FF1C0FC88E00A272AD /* Tip Calculator.xctest */,
 				5DA1530A1C0FC88E00A272AD /* tipsUITests.xctest */,
 			);
 			name = Products;
@@ -163,7 +163,7 @@
 			);
 			name = tipsTests;
 			productName = tipsTests;
-			productReference = 5DA152FF1C0FC88E00A272AD /* tipsTests.xctest */;
+			productReference = 5DA152FF1C0FC88E00A272AD /* Tip Calculator.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		5DA153091C0FC88E00A272AD /* tipsUITests */ = {
@@ -405,7 +405,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = tips/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Joel.tips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -420,7 +420,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = tips/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Joel.tips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,7 +435,7 @@
 				INFOPLIST_FILE = tipsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Joel.tipsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Tip Calculator";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tips.app/tips";
 			};
 			name = Debug;
@@ -447,7 +447,7 @@
 				INFOPLIST_FILE = tipsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Joel.tipsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Tip Calculator";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tips.app/tips";
 			};
 			name = Release;
