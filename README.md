@@ -4,7 +4,7 @@ Tip Calculator is a tip calculator application for iOS.
 
 Submitted by: Joel Annenberg
 
-Time spent: 5-6 hours spent in total
+Time spent: 10-15 hours spent in total
 
 ## User Stories
 
@@ -22,12 +22,13 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 - [x] General UI Improvements
+- [x] Added a light and dark theme
 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/ME8loqW.gif?1' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://i.imgur.com/wKqjTut.gif?1' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -36,6 +37,8 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 Difficulties:
 
 Getting the default tip percentage in the Settings View to update the CALCULATED tip and bill. Changing the default tip would just change the selector on the Settings View, but would not update the calculations on ViewController.
+
+Creating, saving, and accessing the colors for the color themes, and the color schemes themselves.
 
 ## License
 
