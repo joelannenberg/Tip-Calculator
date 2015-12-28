@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5DA152FE1C0FC88E00A272AD"
-               BuildableName = "tipsTests.xctest"
+               BuildableName = "Tip Calculator.xctest"
                BlueprintName = "tipsTests"
                ReferencedContainer = "container:tips.xcodeproj">
             </BuildableReference>
